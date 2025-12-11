@@ -710,7 +710,7 @@ with tab1:
                             else:
                                 warnings.append(f"LLT code {llt_code_str} not found in mapping file")
                         except Exception as e:
-                            warnings.append(f"LLT mapping failed for code {llt\_code}: {e}")
+                            warnings.append(f"LLT mapping failed for code {llt_code}: {e}")
 
                     if llt_term:
                         llt_norm = normalize_text(llt_term)
