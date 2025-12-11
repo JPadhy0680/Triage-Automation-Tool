@@ -589,8 +589,7 @@ with tab1:
                             comments.append(f"MAH '{mah_name_clean}' differs from Celix — please verify.") 
 
                         if parts: 
-                            product_details_list.append(" 
- ".join(parts)) 
+                            product_details_list.append(" \n ".join(parts)) 
 
             seriousness_criteria = list(seriousness_map.keys()) 
             event_details_list = [] 
