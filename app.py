@@ -668,8 +668,7 @@ with tab1:
                     event_details_list.append("; ".join(details_parts)) 
                     event_count += 1 
 
-            event_details_combined_display = "
-".join(event_details_list) 
+            event_details_combined_display = " \n ".join(event_details_list) 
 
             if case_has_serious_event and case_has_category2: 
                 reportability = "Category 2, serious, reportable case" 
