@@ -732,8 +732,7 @@ with tab1:
                 'Case Age (days)': case_age_days, 
                 'Reporter Qualification': reporter_qualification, 
                 'Patient Detail': patient_detail, 
-                'Product Detail': " 
- ".join(product_details_list), 
+                'Product Detail': " \n ".join(product_details_list), 
                 'Event Details': event_details_combined_display, 
                 'Narrative': narrative_full, 
                 'Validity': validity_value, 
