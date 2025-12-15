@@ -8,7 +8,7 @@ import io
 import re
 import calendar
 
-st.set_page_config(page_title="E2B_R3 XML Parser Application", layout="wide")
+st.set_page_config(page_title="E2B_R3 XML Triage Application", layout="wide")
 st.markdown(""" """, unsafe_allow_html=True)
 st.title("\U0001F4CA\U0001F9E0 E2B_R3 XML Parser Application \U0001F6E0️ \U0001F680")
 # Version header
